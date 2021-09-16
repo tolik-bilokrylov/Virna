@@ -270,6 +270,8 @@
   &__gray {
     grid-area: gray;
     background-color: #b7b7b7;
+    width: 70px;
+    height: 50px;
   }
   &__black {
     grid-area: black;
@@ -313,6 +315,9 @@
     &__black {
       width: 90px;
     }
+    &__gray {
+      width: 80px;
+    }
   }
 }
 
@@ -340,6 +345,10 @@
     }
     &__black {
       width: 130px;
+    }
+    &__gray {
+      width: 130px;
+      height: 60px;
     }
   }
 }
