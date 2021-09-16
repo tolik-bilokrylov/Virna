@@ -331,12 +331,12 @@
     }
     &__hex {
       margin-top: 70px;
-    }
-    &__hex--bright {
-      margin-top: 77px;
-    }
-    &__hex--pink {
-      margin-top: 73px;
+      &--bright {
+        margin-top: 77px;
+      }
+      &--pink {
+        margin-top: 73px;
+      }
     }
     &__black {
       width: 130px;
@@ -348,12 +348,12 @@
   .color {
     &__hex {
       margin-top: 69px;
-    }
-    &__hex--bright {
-      margin-top: 77px;
-    }
-    &__hex--pink {
-      margin-top: 73px;
+      &--bright {
+        margin-top: 77px;
+      }
+      &--pink {
+        margin-top: 73px;
+      }
     }
   }
 }
