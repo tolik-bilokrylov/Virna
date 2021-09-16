@@ -281,12 +281,6 @@
     margin-top: 65px;
     text-transform: uppercase;
   }
-  p {
-    font-family: $font-ceraMedium;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -301,9 +295,6 @@
     &__pink-light {
       margin-top: -17px;
       height: 50px;
-    }
-    p {
-      font-size: 16px;
     }
   }
 }
