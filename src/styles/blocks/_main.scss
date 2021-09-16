@@ -89,6 +89,8 @@
   position: absolute;
   top: 220px;
   left: 13px;
+  text-transform: uppercase;
+  font-family: $font-ceraMedium;
   transform: rotate(-90deg) translateX(-8px) translateY(-8px);
 }
 
@@ -388,6 +390,7 @@
     font-weight: 500;
     right: 0;
     bottom: -34px;
+    text-transform: uppercase;
     transform: rotate(-90deg) translateX(15px) translateY(15px);
   }
 }
