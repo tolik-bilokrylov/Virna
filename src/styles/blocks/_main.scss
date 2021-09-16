@@ -365,7 +365,9 @@
     grid-template-columns: repeat(3, 70px);
     grid-template-rows: repeat(3, 50px);
     grid-gap: 50px 30px;
-    grid-template-areas: ". vin vin" "pink-light pink ." ". . gray-light";
+    grid-template-areas: ". vin vin"
+      "pink-light pink ."
+      ". . gray-light";
   }
   &__second {
     margin-top: 12px;
@@ -373,7 +375,8 @@
     grid-template-columns: repeat(3, 70px);
     grid-template-rows: repeat(2, 50px);
     grid-gap: 33px 30px;
-    grid-template-areas: "gray-dark . ." ". gray black";
+    grid-template-areas: "gray-dark . ."
+      ". gray black";
   }
   &__bright {
     position: absolute;
@@ -391,7 +394,9 @@
     &__first {
       margin-top: 29px;
       margin-right: 57px;
-      grid-template-areas: ". vin vin" "pink . ." ". pink-light gray-light";
+      grid-template-areas: ". vin vin"
+        "pink . ."
+        ". pink-light gray-light";
     }
     &__second {
       margin-top: -42px;
