@@ -263,25 +263,25 @@
     height: 50px;
     background-color: #dedcdc;
   }
-  &__gray-dark {
-    grid-area: gray-dark;
-    background-color: #898989;
-  }
-  &__gray {
-    grid-area: gray;
-    background-color: #b7b7b7;
-    width: 70px;
-    height: 50px;
-  }
-  &__black {
-    grid-area: black;
-    background-color: #000;
-  }
   &__hex {
     font-family: $font-ceraMedium;
     font-size: 14px;
     margin-top: 65px;
     text-transform: uppercase;
+  }
+  &__gray-dark {
+    grid-area: gray-dark;
+    background-color: #898989;
+  }
+  &__gray {
+    grid-area: grayc;
+    background-color: #b7b7b7;
+    width: 70px;
+    height: 50px;
+  }
+  &__black {
+    grid-area: blackc;
+    background-color: #000;
   }
 }
 
@@ -385,7 +385,7 @@
     grid-template-rows: repeat(2, 50px);
     grid-gap: 33px 30px;
     grid-template-areas: "gray-dark . ."
-      ". gray black";
+      ". grayc blackc";
   }
   &__bright {
     position: absolute;
